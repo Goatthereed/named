@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "myidentitymod",
+  "version": "1.0.0",
+  "name": "Aditya Identity Mod",
+  "description": "Blocks non-Aditya users.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.adityamod.MyIdentityMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.5",
+    "fabric": "*"
+  }
+}
